@@ -25,7 +25,8 @@ The application includes a highly sophisticated, password-protected admin dashbo
   - Visual KPI charts tracking total revenue and sales volume over custom date ranges. 
   - Granular breakdown tables showing exactly how individual sub-items, options, and coffee types are performing.
 - **Menu & Inventory Manager:** A fully dynamic editor to create and reorder categories, items, and global options. Managers can set complex rules like requiring specific coffee types, adding sub-options, and setting exact inventory limits.
-- **System & Device Configuration:** Manage kiosk idle screensaver timeouts, advertisement media, add and configure network thermal receipt printers (set IP addresses, enable/disable multiple printers), design receipt layouts, and control global application themes.
+- **Dynamic Receipt Generation:** A powerful, tag-based receipt templating system. Managers can design the exact layout of receipts directly in the dashboard by arranging dynamic tags (e.g., order numbers, dates, pricing breakdowns). It communicates seamlessly with a Python bridge script for network ESC/POS thermal printing.
+- **System & Device Configuration:** Manage kiosk idle screensaver timeouts, advertisement media, add and configure network thermal receipt printers (set IP addresses, enable/disable multiple printers), and control global application themes.
 
 ---
 
@@ -43,12 +44,14 @@ The application includes a highly sophisticated, password-protected admin dashbo
 
 > *(Drag and drop your screenshots here to showcase the app!)*
 
-### Customer Kiosk & Ordering Flow
-| Kiosk Menu | Item Customization |
+| Main Screen (Kiosk) | Menu & Categories |
 | :---: | :---: |
-| <img src="screenshots/menu-view.png" width="400" alt="Menu View"/> | <img src="screenshots/customization.png" width="400" alt="Item Customization"/> |
+| <img src="screenshots/main-screen.png" width="400" alt="Main Screen"/> | <img src="screenshots/menu-categories.png" width="400" alt="Menu and Categories"/> |
 
-### Manager Admin Dashboard
-| Analytics & Market Performance | Menu Configuration |
+| Sales & Market Analytics | Receipt System Configuration |
 | :---: | :---: |
-| <img src="screenshots/analytics.png" width="400" alt="Analytics Dashboard"/> | <img src="screenshots/menu-editor.png" width="400" alt="Menu Editor"/> |
+| <img src="screenshots/sales-tab.png" width="400" alt="Sales Tab"/> | <img src="screenshots/receipts.png" width="400" alt="Receipt Configuration"/> |
+
+| Themes & Styling | System Data, Restore & Update |
+| :---: | :---: |
+| <img src="screenshots/themes.png" width="400" alt="Themes"/> | <img src="screenshots/system-data.png" width="400" alt="System Data"/> |
